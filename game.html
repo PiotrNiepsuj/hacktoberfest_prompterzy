@@ -56,7 +56,7 @@
 <main id="shell">
   <header id="top"><div id="brand"><div><h1>GLIWICE: ZEMSTA NEPTUNA</h1><div id="sub">Roguelike z serca Górnego Śląska</div></div><button id="fullscreen" type="button" aria-label="Włącz pełny ekran">PEŁNY EKRAN</button></div><div id="stats"></div></header>
   <div id="frame"><canvas id="game" width="960" height="600" aria-label="Gra Gliwice: Zemsta Neptuna"></canvas><div id="overlay"></div></div>
-  <footer id="help"><span><kbd>WASD</kbd> ruch · <kbd>↑ ← ↓ →</kbd> strzał · <kbd>R</kbd> przeładuj · <kbd>E</kbd> interakcja · <kbd>Shift</kbd> unik · <kbd>SPC</kbd> atak smogowy · <kbd>V</kbd> efekty · <kbd>Esc</kbd> pauza</span><span>Pokonaj bossów kolejnych stref. R w hubie wraca do hubu</span></footer>
+  <footer id="help"><span><kbd>WASD</kbd> ruch · <kbd>↑ ← ↓ →</kbd> strzał · <kbd>R</kbd> przeładuj · <kbd>E</kbd> interakcja · <kbd>Shift</kbd> unik · <kbd>SPC</kbd> atak smogowy · <kbd>V</kbd> efekty · <kbd>Esc</kbd> pauza</span><span>Pokonaj bossów kolejnych stref.</span></footer>
 </main>
 <script>
 (() => {
@@ -175,7 +175,7 @@
     {id:"multi",name:"Dubel gołębi z Rynku",detail:"+1 pocisk",base:30,apply:p=>p.shots=Math.min(4,p.shots+1),usable:p=>p.shots<4},
     {id:"shield",name:"Parasol spod fontanny",detail:"Blokuje następne trafienie",base:17,apply:p=>p.shield++},
     {id:"speed",name:"Dopalacz tramwaju linii 2",detail:"+18% szybkości",base:14,apply:p=>p.speed=Math.min(300,p.speed+24)},
-    {id:"ticket",name:"Bilet na Radiostację",detail:"+18% szansy uniknięcia trafienia",base:29,apply:p=>p.ticketChance=Math.min(.36,(p.ticketChance||0)+.18)},
+    {id:"ticket",name:"Bilet na Radiostację",detail:"+18% szansy uniknięcia trafienia",base:29,apply:p=>p.ticketChance=Math.min(.36,(p.ticketChance||0)+.18),usable:p=>(p.ticketChance||0)<.36},
     {id:"project",name:"Skrypt z Politechniki",detail:"+20% obrażeń i +10% prędkości pocisków",base:36,apply:p=>{p.damage*=1.2;p.shotSpeed*=1.1}},
     {id:"pierce",name:"Śruba z Huty Łabędy",detail:"Pociski przebijają i zadają +10% obrażeń",base:40,zone:2,apply:p=>{p.pierce++;p.damage*=1.1}},
     {id:"radio",name:"Sygnał Radiostacji",detail:"Trafienia spowalniają wrogów",base:34,zone:1,apply:p=>p.radio=true,usable:p=>!p.radio},
