@@ -34,7 +34,6 @@ Podczas swojej podróży odwiedzisz pięć stref inspirowanych Gliwicami i ich i
 | **Zatopiony Rynek** | Znane miejskie otoczenie przejęte przez tajemnicze siły wody. | Admirał Głębin |
 | **Domena Neptuna** | Ostateczna próba, w której zmierzysz się z władcą gliwickiej fontanny. | Neptun |
 
-*Ostateczna zawartość lokacji i bossów zależy od aktualnego stanu implementacji gry.*
 
 ---
 
@@ -71,37 +70,6 @@ Przeciwnicy mają różne wzorce ataków, a kolejni bossowie wymagają obserwacj
 | `←` `↑` `→` `↓` | Kierunek strzału |
 | `R` | Przeładowanie broni |
 
-Sterowanie należy dostosować do aktualnej wersji gry, jeśli w implementacji występują dodatkowe lub zmienione klawisze.
-
----
-
-## 🛠️ Technologie
-
-Projekt jest rozwijany jako gra z naciskiem na programowanie mechanik, projektowanie systemów rozgrywki oraz tworzenie proceduralnych lokacji.
-
-**Technologie i wymagania uruchomieniowe:** uzupełnij na podstawie aktualnej implementacji projektu.
-
-Przykładowe informacje do dodania:
-- Silnik gry i jego wersja.
-- Język programowania.
-- Wymagana wersja środowiska.
-- Instrukcja uruchomienia projektu lokalnie.
-
----
-
-## 🚀 Uruchomienie
-
-Aby uruchomić grę:
-
-1. Sklonuj repozytorium.
-2. Otwórz projekt w odpowiednim środowisku.
-3. Uruchom główną scenę lub plik startowy gry.
-
-```bash
-git clone <URL_REPOZYTORIUM>
-```
-
-> Szczegółowe instrukcje uruchomienia zostaną uzupełnione po potwierdzeniu struktury projektu i użytych technologii.
 
 ---
 
