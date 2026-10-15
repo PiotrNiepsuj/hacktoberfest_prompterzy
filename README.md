@@ -93,3 +93,5 @@ To także próba stworzenia czegoś, co łączy techniczne wyzwania z lokalnym c
 ---
 
 *Gliwice są nasze. Neptun tylko pożycza fontannę.*
+
+![Alt](./prezentacja_gry(1).mp4)
