@@ -105,21 +105,6 @@ git clone <URL_REPOZYTORIUM>
 
 ---
 
-## 🗺️ Plan rozwoju
-
-Planowane i rozwijane elementy projektu obejmują:
-
-- [ ] Dopracowanie wszystkich pięciu stref.
-- [ ] Rozbudowę zachowań przeciwników i bossów.
-- [ ] Dalsze zbalansowanie ekonomii i cen przedmiotów.
-- [ ] Rozszerzenie puli przedmiotów i ulepszeń.
-- [ ] Poprawę animacji, efektów i spójności oprawy graficznej.
-- [ ] Rozwój pułapek i specjalnych pomieszczeń.
-- [ ] Dopracowanie kolizji i generowania map.
-- [ ] Optymalizację wydajności i testowanie mechanik.
-
----
-
 ## 🎨 Inspiracje
 
 Projekt czerpie inspiracje z gier:
